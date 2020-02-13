@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JFMFramework/Classes/**/*'
+  s.source_files = 'JFMFramework/**/*'
   
   # s.resource_bundles = {
   #   'JFMFramework' => ['JFMFramework/Assets/*.png']
