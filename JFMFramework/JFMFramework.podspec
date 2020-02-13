@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.homepage         = 'https://github.com/jjmiguel21/JFMFrameWork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'JFMFramework/LICENSE' }
   s.author           = { 'Jaime Miguel III' => 'jj.miguel21@gmail.com' }
   s.source           = { :git => 'https://github.com/jjmiguel21/JFMFrameWork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
