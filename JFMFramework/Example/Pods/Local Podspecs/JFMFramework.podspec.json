@@ -1,6 +1,6 @@
 {
   "name": "JFMFramework",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "summary": "A short description of JFMFramework.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/jjmiguel21/JFMFrameWork",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jjmiguel21/JFMFrameWork.git",
-    "tag": "0.1.1"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
