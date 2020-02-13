@@ -11,8 +11,6 @@
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
-		18522980385BE7A9E0279E4BE3F87B14 /* JFMEntityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FF77CB7309256FB12FAF718370A19B /* JFMEntityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27EC6E1097AB820ED8134DF4BD94FC84 /* JFMEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C9B920FCED38C578BA548C69D62B6B /* JFMEntityManager.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */; };
 		3F78B41B80D3D9562CEE8A95FD463D19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3ACA72AE9B776E644F6D159AB3E80B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -82,7 +80,6 @@
 		3E29C50D3CDB46CBCBD20AFA13EB3D8D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		3F414EB0E554AC9255B35E9E0A53265D /* JFMFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JFMFramework.modulemap; sourceTree = "<group>"; };
 		418E0471655A8CDB5EB2C290498D2FD3 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		45C9B920FCED38C578BA548C69D62B6B /* JFMEntityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JFMEntityManager.m; path = JFMFramework/Classes/JFMEntityManager.m; sourceTree = "<group>"; };
 		4F6BCF2315ED86F944C70A3D96434666 /* JFMFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JFMFramework.xcconfig; sourceTree = "<group>"; };
 		59BDBDF22435D7FACC022B91DAD080AA /* Pods-JFMFramework_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JFMFramework_Example-umbrella.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +110,6 @@
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		B3983EC364FD850D78CED80F68898085 /* JFMFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JFMFramework-Info.plist"; sourceTree = "<group>"; };
 		CCCE66BB60CACAF3958696FD532A5E82 /* JFMFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JFMFramework-umbrella.h"; sourceTree = "<group>"; };
-		D2FF77CB7309256FB12FAF718370A19B /* JFMEntityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JFMEntityManager.h; path = JFMFramework/Classes/JFMEntityManager.h; sourceTree = "<group>"; };
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		DB29A3E842612660BC1BB7B8A3853C69 /* Pods-JFMFramework_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JFMFramework_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
@@ -174,8 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				6FEF76CB23F57FEB00BC513F /* Classes */,
-				D2FF77CB7309256FB12FAF718370A19B /* JFMEntityManager.h */,
-				45C9B920FCED38C578BA548C69D62B6B /* JFMEntityManager.m */,
 				AEB60CAE5776C08C1B4216CDA201B90B /* Pod */,
 				19CD3E0BD381EB370848F507AA1C36CE /* Support Files */,
 			);
@@ -409,7 +403,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18522980385BE7A9E0279E4BE3F87B14 /* JFMEntityManager.h in Headers */,
 				A89165705D8BF6160C01C88A75519B67 /* JFMFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,7 +559,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27EC6E1097AB820ED8134DF4BD94FC84 /* JFMEntityManager.m in Sources */,
 				A2FCFB18EF53C47F0585DE677F54366F /* JFMFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
