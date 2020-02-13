@@ -10,6 +10,8 @@
 		6FBAF4B223F5214E0041E7F6 /* JFMFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBAF4A823F5214D0041E7F6 /* JFMFramework.framework */; };
 		6FBAF4B723F5214E0041E7F6 /* JFMFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBAF4B623F5214E0041E7F6 /* JFMFrameworkTests.swift */; };
 		6FBAF4B923F5214E0041E7F6 /* JFMFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FBAF4AB23F5214D0041E7F6 /* JFMFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FEF76C123F5328B00BC513F /* JFMEntityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FEF76BF23F5328B00BC513F /* JFMEntityManager.h */; };
+		6FEF76C223F5328B00BC513F /* JFMEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEF76C023F5328B00BC513F /* JFMEntityManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		6FBAF4B123F5214E0041E7F6 /* JFMFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFMFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FBAF4B623F5214E0041E7F6 /* JFMFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JFMFrameworkTests.swift; sourceTree = "<group>"; };
 		6FBAF4B823F5214E0041E7F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FEF76BF23F5328B00BC513F /* JFMEntityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JFMEntityManager.h; path = Classes/JFMEntityManager.h; sourceTree = "<group>"; };
+		6FEF76C023F5328B00BC513F /* JFMEntityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JFMEntityManager.m; path = Classes/JFMEntityManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				6FBAF4AB23F5214D0041E7F6 /* JFMFramework.h */,
+				6FEF76BF23F5328B00BC513F /* JFMEntityManager.h */,
+				6FEF76C023F5328B00BC513F /* JFMEntityManager.m */,
 				6FBAF4AC23F5214D0041E7F6 /* Info.plist */,
 			);
 			path = JFMFramework;
@@ -94,6 +100,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FBAF4B923F5214E0041E7F6 /* JFMFramework.h in Headers */,
+				6FEF76C123F5328B00BC513F /* JFMEntityManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FEF76C223F5328B00BC513F /* JFMEntityManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
