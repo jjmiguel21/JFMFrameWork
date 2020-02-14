@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/jjmiguel21/JFMFramework'
+  s.homepage         = 'https://github.com/jjmiguel21/JFMFrameWork'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jaime Miguel III' => 'jj.miguel21@gmail.com' }
-  s.source           = { :git => 'https://github.com/jjmiguel21/JFMFramework.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jjmiguel21/JFMFrameWork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JFMFramework/**/*.{m.h}'
+  s.source_files = 'JFMFramework/Classes/**/*.{m,h}'
   
   # s.resource_bundles = {
   #   'JFMFramework' => ['JFMFramework/Assets/*.png']
