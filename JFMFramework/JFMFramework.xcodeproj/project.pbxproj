@@ -10,6 +10,8 @@
 		6F0C875223F68AB4000D32E4 /* JFMFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F0C874823F68AB3000D32E4 /* JFMFramework.framework */; };
 		6F0C875723F68AB4000D32E4 /* JFMFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C875623F68AB4000D32E4 /* JFMFrameworkTests.m */; };
 		6F0C875923F68AB4000D32E4 /* JFMFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0C874B23F68AB3000D32E4 /* JFMFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F0C876423F69008000D32E4 /* JFMEntityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0C876223F69008000D32E4 /* JFMEntityManager.h */; };
+		6F0C876523F69008000D32E4 /* JFMEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0C876323F69008000D32E4 /* JFMEntityManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		6F0C875123F68AB4000D32E4 /* JFMFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFMFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F0C875623F68AB4000D32E4 /* JFMFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFMFrameworkTests.m; sourceTree = "<group>"; };
 		6F0C875823F68AB4000D32E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F0C876223F69008000D32E4 /* JFMEntityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFMEntityManager.h; sourceTree = "<group>"; };
+		6F0C876323F69008000D32E4 /* JFMEntityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFMEntityManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				6F0C874B23F68AB3000D32E4 /* JFMFramework.h */,
+				6F0C876623F690AD000D32E4 /* EntityManager */,
 				6F0C874C23F68AB3000D32E4 /* Info.plist */,
 			);
 			path = JFMFramework;
@@ -86,6 +91,15 @@
 			path = JFMFrameworkTests;
 			sourceTree = "<group>";
 		};
+		6F0C876623F690AD000D32E4 /* EntityManager */ = {
+			isa = PBXGroup;
+			children = (
+				6F0C876223F69008000D32E4 /* JFMEntityManager.h */,
+				6F0C876323F69008000D32E4 /* JFMEntityManager.m */,
+			);
+			path = EntityManager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0C875923F68AB4000D32E4 /* JFMFramework.h in Headers */,
+				6F0C876423F69008000D32E4 /* JFMEntityManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F0C876523F69008000D32E4 /* JFMEntityManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
