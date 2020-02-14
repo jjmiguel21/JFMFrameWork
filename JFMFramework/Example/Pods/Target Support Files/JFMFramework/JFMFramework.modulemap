@@ -1,6 +1,0 @@
-framework module JFMFramework {
-  umbrella header "JFMFramework-umbrella.h"
-
-  export *
-  module * { export * }
-}
