@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "JFMEntityManager.h"
+#import "JFMFramework.h"
 
 FOUNDATION_EXPORT double JFMFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char JFMFrameworkVersionString[];

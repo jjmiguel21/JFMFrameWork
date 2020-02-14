@@ -1,22 +1,22 @@
 {
   "name": "JFMFramework",
-  "version": "0.1.0",
-  "summary": "A short description of JFMFramework.",
+  "version": "0.0.1",
+  "summary": "A lightweight framework, for ease use.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Jaime Miguel III/JFMFramework",
+  "homepage": "https://github.com/jjmiguel21/JFMFrameWork",
   "license": {
     "type": "MIT",
-    "file": "LICENSE"
+    "file": "JFMFramework/LICENSE"
   },
   "authors": {
     "Jaime Miguel III": "jj.miguel21@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Jaime Miguel III/JFMFramework.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/jjmiguel21/JFMFrameWork.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JFMFramework/Classes/**/*"
+  "source_files": "JFMFramework/**/*.{h,m}"
 }
