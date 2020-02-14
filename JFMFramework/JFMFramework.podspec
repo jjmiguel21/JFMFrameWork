@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'JFMFrameWork/JFMFramework/**/*.{h,m}'
+  s.source_files = 'JFMFrameWork/JFMFramework/JFMFramework/**/*.{h,m}'
   
   # s.resource_bundles = {
   #   'JFMFramework' => ['JFMFramework/Assets/*.png']
