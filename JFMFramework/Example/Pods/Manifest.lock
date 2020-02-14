@@ -1,27 +1,16 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - JFMFramework (0.1.4)
+  - JFMFramework (0.1.5)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - JFMFramework (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
 
 EXTERNAL SOURCES:
   JFMFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  JFMFramework: 9f66844f0acf4d196497e0750c1d7b3086dd8d24
+  JFMFramework: 89ef9b2e201131ed22763ae02a26de45424c6ec1
 
-PODFILE CHECKSUM: 7026648544a56ba6dc976e09924d0928cac6115b
+PODFILE CHECKSUM: 76d36e735799d78651e4d40a59dc4635977ec92c
 
 COCOAPODS: 1.8.4
