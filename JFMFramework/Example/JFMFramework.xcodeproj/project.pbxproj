@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Jaime Miguel III";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = E6UVAG53N3;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -513,6 +516,7 @@
 			baseConfigurationReference = C18F8C929E82658108BB9FF4 /* Pods-JFMFramework_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E6UVAG53N3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFMFramework/JFMFramework-Prefix.pch";
 				INFOPLIST_FILE = "JFMFramework/JFMFramework-Info.plist";
@@ -529,6 +533,7 @@
 			baseConfigurationReference = 43C495B9A12894DE161946EA /* Pods-JFMFramework_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E6UVAG53N3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JFMFramework/JFMFramework-Prefix.pch";
 				INFOPLIST_FILE = "JFMFramework/JFMFramework-Info.plist";
