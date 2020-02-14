@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JFMFramework (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JFMFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  JFMFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JFMFramework: 2ff48ef09cf56d5f9ea05deca1e0bd8aae40dd9b
+
+PODFILE CHECKSUM: 7026648544a56ba6dc976e09924d0928cac6115b
+
+COCOAPODS: 1.8.4
